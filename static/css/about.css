@@ -1,0 +1,81 @@
+/* Reset style untuk memastikan konsistensi tampilan di berbagai browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Styling untuk body */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Styling untuk container utama */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Styling untuk navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px 0;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 20px;
+  }
+  
+  .nav a:hover {
+    color: #ffffff; /* Ubah warna sesuai preferensi */
+  }
+  
+  .nav_right {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Styling untuk gambar ikon */
+  .puma_icon {
+    width: 50px;
+    height: auto;
+  }
+  
+  .nav_icon {
+    width: 30px;
+    height: auto;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+  /* Styling untuk konten 'About Us' */
+  .about_content {
+    padding: 20px;
+  }
+  
+  .about_content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .about_content h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  
+  .about_content p {
+    margin-bottom: 15px;
+    line-height: 1.4;
+  }
